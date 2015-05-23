@@ -2190,8 +2190,17 @@
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
+                    var perm = basicBot.userUtilities.getPermission(chat.uid);
+                    var msg = chat.message;
+                    var name;
+               	    if (msg.length > cmd.length) {
+                    if (perm < 2) return void (0);
+                        name = msg.substring(cmd.length + 2);
+                    } else name = chat.un;
+                    var user = basicBot.userUtilities.lookupUserName(name);
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    if (name !== 'alyucia')  API.sendChat(basicBot.chat.killtry);
                     else {
                         storeToStorage();
                         API.sendChat(basicBot.chat.kill);
