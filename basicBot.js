@@ -2186,7 +2186,7 @@
             },
 
             killCommand: {
-                command: 'alykill',
+                command: 'suicide',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
