@@ -1712,7 +1712,7 @@
             },
 
             cookieCommand: {
-                command: 'cookie',
+                command: 'qwertyasdf',
                 rank: 'user',
                 type: 'startsWith',
                 getCookie: function (chat) {
