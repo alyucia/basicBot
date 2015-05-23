@@ -2200,7 +2200,7 @@
                     var user = basicBot.userUtilities.lookupUserName(name);
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    if (name !== 'alyucia')  API.sendChat(basicBot.chat.killtry);
+                    if (name !== 'alyucia') return API.sendChat(subChat(basicBot.chat.killtry, {name: name}));
                     else {
                         storeToStorage();
                         API.sendChat(basicBot.chat.kill);
