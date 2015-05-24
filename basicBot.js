@@ -3396,7 +3396,7 @@
                         	attackers[counter] = attacker;
                         	victims[counter] = victim;
                         	counter ++;
-                        	API.sendChat(subChat(basicBot.chat.duel, {victim: victim, attacker: attacker}));
+                        	API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
                         	
          		}
          	}
