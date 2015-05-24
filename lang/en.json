@@ -56,7 +56,10 @@
         "Don't bet on it.",
         "Forget about it."
     ],
-    "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
+    "killtry": [
+        "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
+        "How shall I destroy you, @%%NAME%%..."
+        ].
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
     "langerror": "\/me The language you've selected isn't available. Please visit %%LINK%% to find a list of languages available.",
