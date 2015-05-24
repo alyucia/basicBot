@@ -3387,7 +3387,7 @@
                         	var victim;
                         	var attacker;
                         	if (msg.length > cmd.length) {
-                            		if (perm < 2) return void (0);
+                            	//	if (perm < 2) return void (0);
                         		victim = msg.substring(cmd.length + 2);
                         	}
                         	attacker = chat.un;
