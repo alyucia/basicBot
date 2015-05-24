@@ -56,7 +56,7 @@
         "Don't bet on it.",
         "Forget about it."
     ],
-    "duel": "@%%VICTIM%%, you have been challenged to a duel by @%%ATTACKER%%! Type !accept @%%ATTACKER%% to accept the duel!"
+    "duel": "@%%VICTIM%%, you have been challenged to a duel by @%%ATTACKER%%! Type !accept @%%ATTACKER%% to accept the duel!",
     "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
