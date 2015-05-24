@@ -159,7 +159,7 @@
     "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% has been in the room for %%TIME%%.",
     "kickrank": "\/me [@%%NAME%%] you can't kick users with an equal or higher rank than you!",
     "kick": "\/me [@%%NAME%%], @%%USERNAME%% you are being kicked from the community for %%TIME%% minutes.",
-    "kill": "\/me THIS IS NOT A DEMOCRACY.",
+    "kill": "\/me You win, alyucia - BUT YOUR ROOM IS STILL DOOMED!",
     "logout": "\/me [@%%NAME%%] Logging out %%BOTNAME%%",
     "rouletteleave": "\/me @%%NAME%% left the roulette!",
     "songlink": "\/me [@%%NAME%%] DA LINK: %%LINK%%",
