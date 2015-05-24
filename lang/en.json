@@ -59,7 +59,7 @@
     
     
     "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
-    "duel": "@%%VICTIM%%, you have been challenged to a duel by @%%ATTACKER%%! Type !accept @%%ATTACKER%% to accept the duel!",
+    "duel": "@%%NAME1%%, you have been challenged to a duel by @%%NAME2%%! Type !accept @%%NAME2%% to accept the duel!",
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
     "langerror": "\/me The language you've selected isn't available. Please visit %%LINK%% to find a list of languages available.",
