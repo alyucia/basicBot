@@ -2187,7 +2187,7 @@
 
             killCommand: {
                 command: 'overthrow',
-                rank: 'bouncer',
+                rank: 'user',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     var perm = basicBot.userUtilities.getPermission(chat.uid);
