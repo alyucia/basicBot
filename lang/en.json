@@ -58,8 +58,7 @@
     ],
     "killtry": [
         "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
-        "How shall I destroy you, @%%NAME%%..."
-        ].
+        ],
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
     "langerror": "\/me The language you've selected isn't available. Please visit %%LINK%% to find a list of languages available.",
@@ -69,7 +68,7 @@
     "greyuser": "Only bouncers and up can run a bot.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
     "online": "\/me YOU FACE %%BOTNAME%%! EREDAR BOT OF THE BURNING DJ ROOM.",
-    "welcome": "\/me HI THERE %%NAME%%",
+    "welcome": "\/me How shall I destroy you, @%%NAME%%...",
     "welcomeback": "\/me O. you're %%NAME%%",
     "songknown": "\/me @%%NAME%%, this song is in the DJ history.",
     "timelimit": "\/me @%%NAME%%, your song is longer than %%MAXLENGTH%% minutes, you need permission to play longer songs.",
