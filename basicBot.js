@@ -3389,7 +3389,7 @@
                         	if (msg.length > cmd.length) {
                             		if (perm < 2) return void (0);
                         		victim = msg.substring(cmd.length + 2);
-                        	} else return void (0);
+                        	}
                         	attacker = chat.un;
                         	var victimChar = basicBot.userUtilities.lookupUserName(victim);
                         	var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
