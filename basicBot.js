@@ -3391,8 +3391,8 @@
                         		victim = msg.substring(cmd.length + 2);
                         	}
                         	attacker = chat.un;
-                        	var victimChar = basicBot.userUtilities.lookupUserName(victim);
-                        	var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
+                        	//var victimChar = basicBot.userUtilities.lookupUserName(victim);
+                        	//var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
                         	attackers[counter] = attacker;
                         	victims[counter] = victim;
                         	counter ++;
