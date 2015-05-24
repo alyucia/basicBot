@@ -68,7 +68,7 @@
     "datarestored": "Previously stored data successfully retrieved.",
     "greyuser": "Only bouncers and up can run a bot.",
     "bouncer": "The bot can't move people when it's run as a bouncer.",
-    "online": "\/me YOU FACE %%BOTNAME%%! EREDAR BOT OF THE BURNING DJ ROOM.",
+    "online": "\/me YOU FACE %%BOTNAME%%! EREDAR BOT OF THE BURNING DJ ROOM. asdf",
     "welcome": "\/me How shall I destroy you, @%%NAME%%...",
     "welcomeback": "\/me O. you're %%NAME%%",
     "songknown": "\/me @%%NAME%%, this song is in the DJ history.",
