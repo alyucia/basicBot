@@ -19,7 +19,6 @@
         }
         return -1;
     };
-
     var kill = function () {
         clearInterval(basicBot.room.autodisableInterval);
         clearInterval(basicBot.room.afkInterval);
@@ -177,7 +176,9 @@
     var botCreator = "Matthew (Yemasthui)";
     var botMaintainer = "Benzi (Quoona)"
     var botCreatorIDs = ["3851534", "4105209"];
-
+    var attackers = [];
+    var victims = [];
+    var counter = 0;
     var basicBot = {
         version: "2.4.5",
         status: false,
@@ -3371,6 +3372,37 @@
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
                     }
                 }
+            }
+            
+
+            
+            duelCommand: {
+            	command: 'duel',
+            	rank: 'user',
+            	type: "startsWith".
+            	functionality: function(chat, cmd){
+        		if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+         		if( !bot.commands.executable(this.rank, chat) ) return void (0);
+        	 	else{
+        	 		var perm = basicBot.userUtilities.getPermission(chat.uid);
+                        	var msg = chat.message;
+                        	var victim;
+                        	var attacker;
+                        	if (msg.length > cmd.length) {
+                            		if (perm < 2) return void (0);
+                        		victim = msg.substring(cmd.length + 2);
+                        	} else return void (0);
+                        	attacker = chat.un;
+                        	var victimChar = basicBot.userUtilities.lookupUserName(victim);
+                        	var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
+                        	attackers[counter] = attacker;
+                        	victims[counter] = victim;
+                        	counter ++;
+                        	API.sendChat(subChat(basicBot.chat.duel, {victim: victim, attacker: attacker}));
+                        	
+         		}
+         	}
+         }
             }
         }
     };
