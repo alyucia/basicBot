@@ -3379,9 +3379,9 @@
             	rank: 'bouncer',
             	type: "startsWith",
             	functionality: function(chat, cmd){
-        		if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-        	        if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-        	 	else{
+        		//if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+        	        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+        	 	//else{
         	 		var perm = basicBot.userUtilities.getPermission(chat.uid);
                         	var msg = chat.message;
                         	var victim;
@@ -3398,7 +3398,7 @@
                         	counter ++;
                         	API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
                         	
-         		}
+         		//}
          	}
          
             }
