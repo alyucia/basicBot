@@ -3391,7 +3391,7 @@
                         	var already;
                         	attacker = chat.un;
                         	if (msg.length > cmd.length) {
-                            		if (perm < 2) return void (0);
+                            		//if (perm < 2) return void (0);
                         		victim = msg.substring(cmd.length + 2);
                         	}
                         	for (var i = 0; i < attackers.length; i++){
@@ -3428,7 +3428,7 @@
                 	        	var i;
                 	        	victim = chat.un;
                 	        	if (msg.length > cmd.length) {
-                	            		if (perm < 2) return void (0);
+                	            		//if (perm < 2) return void (0);
                 	        		attacker = msg.substring(cmd.length + 2);
                 	        	}else return API.sendChat(subChat(basicBot.chat.format, {name: victim}));
                 	                for (i = 0; victim !== victims[i]; i++){
