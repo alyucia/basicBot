@@ -60,7 +60,7 @@
     "attackself":"@%%NAME%% - Please don't try to attack yourself. We don't endorse emos.",
     "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
     "alreadyattacked": "@%%NAME1%% - you have already challenged @%%NAME2%%!",
-    "duel": "@%%NAME1%%, you have been challenged to a duel by @%%NAME2%%! Type !accept @name to accept the duel!",
+    "duel": "@%%NAME1%%, you have been challenged to a duel by @%%NAME2%%! Type !acceptduel @name to accept the duel!",
     "duelwin": "After a bloody battle, @%%NAME1%% has defeated @%%NAME2%%!",
     "format": "@%%NAME%% YOUR FORMAT SUCKS",
     "dueltie": "After a bloody battle, both @%%NAME1%% and @%%NAME2%% lay dead on the ground. RIP",
