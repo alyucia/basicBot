@@ -2684,6 +2684,7 @@
                         API.sendChat(basicBot.chat.reload);
                         storeToStorage();
                         basicBot.disconnectAPI();
+                        localStorage.clear();
                         kill();
                         setTimeout(function () {
                             $.getScript(basicBot.scriptLink);
@@ -3376,7 +3377,7 @@
             
             duelCommand: {
             	command: 'duel',
-            	rank: 'bouncer',
+            	rank: 'user',
             	type: "startsWith",
             	functionality: function(chat, cmd){
         		if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -3397,6 +3398,55 @@
                         	victims[counter] = victim;
                         	counter ++;
                         	API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
+                        	
+         		}
+         	},
+         	
+         	acceptCommand: {
+            	command: 'accept',
+            	rank: 'user',
+            	type: "startsWith",
+            	functionality: function(chat, cmd){
+        		if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+        	        if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+        	 	else{
+        	 		var perm = basicBot.userUtilities.getPermission(chat.uid);
+                        	var msg = chat.message;
+                        	var name1;
+                        	var name2;
+                        	var victim;
+                        	var attacker;
+                        	var i;
+                        
+                        	victim = chat.un;
+                        	if (msg.length > cmd.length) {
+                            		if (perm < 2) return void (0);
+                        		attacker = msg.substring(cmd.length + 2);
+                        	}else return API.sendChat(subChat(basicBot.chat.format, {name: victim}));
+                                for (i = 0; victim !== victims[i], i++){
+                                	name1 = victims[i];
+                                }
+                                if (attacker === attackers[i]){
+                    			if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
+                        		if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
+                        		else{
+                				var random = Math.random() * 2;
+                				if (random > 1) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
+                				if (random < 1) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
+                				else return API.sendChat(subChat(basicBot.chat.dueltie, {name1: attacker, name2: victim}));
+                        		
+                        		}
+                                	
+                                }else return API.sendChat(subChat(basicBot.chat.wrongattack, {name1: victim, name2: attacker}));
+                                
+                        		
+                        	
+                        	//var victimChar = basicBot.userUtilities.lookupUserName(victim);
+                        	//var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
+                        	//attackers[counter] = attacker;
+                        	//victims[counter] = victim;
+                        	//counter ++;
+                        	API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                         	
          		}
          	}
