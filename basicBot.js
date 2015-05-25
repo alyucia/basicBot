@@ -3423,7 +3423,7 @@
                             		if (perm < 2) return void (0);
                         		attacker = msg.substring(cmd.length + 2);
                         	}else return API.sendChat(subChat(basicBot.chat.format, {name: victim}));
-                                for (i = 0; victim !== victims[i], i++){
+                                for (i = 0; victim !== victims[i]; i++){
                                 	name1 = victims[i];
                                 }
                                 if (attacker === attackers[i]){
