@@ -2674,7 +2674,7 @@
             },
 
             reloadCommand: {
-                command: 'reload',
+                command: 'restart',
                 rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
