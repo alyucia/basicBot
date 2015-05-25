@@ -3438,8 +3438,8 @@
                 	                if (attacker === attackers[i]){
                 	                	attackers[i] = 'qwertyasdf';
                 	                	victim[i] = 'qwertyasdf';
-                	    			if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
-                	        		if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
+                	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
+                	        		//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		else{
                 					var random = Math.random() * 2;
                 					if (random > 1) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
