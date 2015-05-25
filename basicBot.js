@@ -3413,7 +3413,7 @@
         },
          	
         	acceptCommand: {
-            		command: 'accept',
+            		command: 'acceptduel',
             		rank: 'user',
             		type: "startsWith",
             		functionality: function(chat, cmd){
