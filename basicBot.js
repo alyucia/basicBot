@@ -3400,6 +3400,7 @@
                         			return API.sendChat(subChat(basicBot.chat.alreadyattacked, {name1: attacker, name2: attacked}));
                         		}
                 	        }
+                	        if (attacker === victim) return API.sendChat(subChat(basicBot.chat.attackself, {name: attacker}));
                         	//var victimChar = basicBot.userUtilities.lookupUserName(victim);
                         	//var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
                         	attackers[counter] = attacker;
