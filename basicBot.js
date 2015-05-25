@@ -3387,11 +3387,19 @@
                         	var msg = chat.message;
                         	var victim;
                         	var attacker;
+                        	var j;
+                        	var already;
+                        	attacker = chat.un;
                         	if (msg.length > cmd.length) {
                             		if (perm < 2) return void (0);
                         		victim = msg.substring(cmd.length + 2);
                         	}
-                        	attacker = chat.un;
+                        	for (var i = 0; i < attackers.length; i++){
+                        		if (attackers[i] = attacker){
+                        			var attacked = victims[i];
+                        			return API.sendChat(subChat(basicBot.chat.alreadyattacked, {name1: attacker, name2: attacked}));
+                        		}
+                	        }
                         	//var victimChar = basicBot.userUtilities.lookupUserName(victim);
                         	//var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
                         	attackers[counter] = attacker;
@@ -3427,6 +3435,8 @@
                 	                	name1 = victims[i];
                 	                }
                 	                if (attacker === attackers[i]){
+                	                	attackers[i] = 'qwertyasdf';
+                	                	victim[i] = 'qwertyasdf';
                 	    			if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 	        		if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		else{
@@ -3435,6 +3445,7 @@
                 					if (random < 1) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 					else return API.sendChat(subChat(basicBot.chat.dueltie, {name1: attacker, name2: victim}));
                 	        		}
+                	        		
                 	                }else return API.sendChat(subChat(basicBot.chat.wrongattack, {name1: victim, name2: attacker}));
         	         	//API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                         	
