@@ -3436,8 +3436,8 @@
                 	                	name1 = victims[i];
                 	                }
                 	                if (attacker === attackers[i]){
-                	                	attackers[i] = 'qwertyasdf';
-                	                	victim[i] = 'qwertyasdf';
+                	                	attackers[i] = null;
+                	                	victim[i] = null;
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 	        		//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		//else{
