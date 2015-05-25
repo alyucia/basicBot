@@ -59,6 +59,7 @@
     
     
     "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
+    "alreadyattacked": "@%%NAME1%% - you have already challenged @%%NAME2%%!",
     "duel": "@%%NAME1%%, you have been challenged to a duel by @%%NAME2%%! Type !accept @name to accept the duel!",
     "duelwin": "After a bloody battle, @%%NAME1%% has defeated @%%NAME2%%!",
     "format": "@%%NAME%% YOUR FORMAT SUCKS",
