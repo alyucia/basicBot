@@ -59,7 +59,11 @@
     
     
     "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
-    "duel": "@%%NAME1%%, you have been challenged to a duel by @%%NAME2%%! Type !accept @%%NAME2%% to accept the duel!",
+    "duel": "@%%NAME1%%, you have been challenged to a duel by @%%NAME2%%! Type !accept @name to accept the duel!",
+    "duelwin": "After a bloody battle, @%%NAME1%% has defeated @%%NAME2%%!",
+    "format": "@%%NAME%% YOUR FORMAT SUCKS",
+    "dueltie": "After a bloody battle, both @%%NAME1%% and @%%NAME2%% lay dead on the ground. RIP",
+    "wrongattack": "@%%NAME1%%- @%%NAME2%% did not attack you!",
     "nodatafound": "No previous data found.",
     "currentlang": "\/me Language currently set to: %%LANGUAGE%%",
     "langerror": "\/me The language you've selected isn't available. Please visit %%LINK%% to find a list of languages available.",
