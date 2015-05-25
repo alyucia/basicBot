@@ -3402,7 +3402,7 @@
          		}
          	},
          	
-         	acceptCommand: {
+        acceptCommand: {
             	command: 'accept',
             	rank: 'user',
             	type: "startsWith",
@@ -3453,7 +3453,7 @@
          
             }
         }
-    };
+    }
 
     loadChat(basicBot.startup);
 }).call(this);
