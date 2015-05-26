@@ -3422,20 +3422,19 @@
         		 	else{
         		 		var perm = basicBot.userUtilities.getPermission(chat.uid);
                 	        	var msg = chat.message;
-                	        	var name1;
-                	        	var name2;
                 	        	var victim;
                 	        	var attacker;
                 	        	var i;
+                	        	var j;
                 	        	victim = chat.un;
                 	        	if (msg.length > cmd.length) {
                 	            		//if (perm < 2) return void (0);
                 	        		attacker = msg.substring(cmd.length + 2);
                 	        	}else return API.sendChat(subChat(basicBot.chat.format, {name: victim}));
-                	                for (i = 0; victim !== victims[i]; i++){
-                	                	name1 = victims[i];
+                	                for (i = 0; i < victims.length; i++){
+                	                	if (victim = victims[i]) j = i;
                 	                }
-                	                if (attacker === attackers[i]){
+                	                if (attacker === attackers[j]){
                 	                	attackers[i] = null;
                 	                	victim[i] = null;
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
