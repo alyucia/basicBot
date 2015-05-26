@@ -3403,9 +3403,9 @@
                 	        if (attacker === victim) return API.sendChat(subChat(basicBot.chat.attackself, {name: attacker}));
                         	//var victimChar = basicBot.userUtilities.lookupUserName(victim);
                         	//var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
-                        	attackers[counter] = attacker;
-                        	victims[counter] = victim;
-                        	counter++;
+                        	attackers.push(attacker);
+                        	victims.push(victim);
+                        	//counter++;
                         	return API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
                         	
          		}
