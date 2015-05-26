@@ -3437,7 +3437,7 @@
                 	                	var i = 0; 
                 	                	var string = "Array: "; 
                 	                	while(i < attackers.length){
-                	                		string += attackers[i] + ",;
+                	                		string += attackers[i] + ",";
                 	                		i++; 
                 	                	}
                 	                	API.sendChat(string);
