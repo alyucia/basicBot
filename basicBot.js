@@ -3434,8 +3434,20 @@
                 	                	if (victim = victims[i]) j = i;
                 	                }
                 	                if (attacker === attackers[j]){
+                	                	var i = 0; 
+                	                	var string = "Array: "; 
+                	                	while(i < attackers.length){
+                	                		string += attackers[i] + ",";" i++; 
+                	                	}
+                	                	API.sendChat(string);
                 	                	delete attackers[j];
                 	                	delete victim[j];
+                	                	i = 0; 
+                	                	string = "Array: "; 
+                	                	while(i < attackers.length){
+                	                		string += attackers[i] + ",";" i++; 
+                	                	}
+                	                	API.sendChat(string);
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 	        		//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		//else{
