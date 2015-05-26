@@ -3449,7 +3449,7 @@
                 	                		stringg += attackers[k] + ","; 
                 	                		k++; 
                 	                	}
-                	                	API.sendChat(string);
+                	                	API.sendChat(stringg);
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 	        		//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		//else{
