@@ -3434,20 +3434,20 @@
                 	                	if (victim = victims[i]) j = i;
                 	                }
                 	                if (attacker === attackers[j]){
-                	                	var i = 0; 
+                	                	var l = 0; 
                 	                	var string = "Array: "; 
-                	                	while(i < attackers.length){
-                	                		string += attackers[i] + ",";
-                	                		i++; 
+                	                	while(l < attackers.length){
+                	                		string += attackers[l] + ",";
+                	                		l++; 
                 	                	}
                 	                	API.sendChat(string);
                 	                	delete attackers[j];
                 	                	delete victim[j];
-                	                	i = 0; 
-                	                	string = "Array: "; 
-                	                	while(i < attackers.length){
-                	                		string += attackers[i] + ","; 
-                	                		i++; 
+                	                	var k = 0; 
+                	                	var stringg = "Array: "; 
+                	                	while(k < attackers.length){
+                	                		stringg += attackers[k] + ","; 
+                	                		k++; 
                 	                	}
                 	                	API.sendChat(string);
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
