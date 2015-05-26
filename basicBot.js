@@ -3405,7 +3405,7 @@
                         	//var attackerChar = basicBot.userUtilities.lookupUserName(attacker);
                         	attackers[counter] = attacker;
                         	victims[counter] = victim;
-                        	counter ++;
+                        	counter++;
                         	return API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
                         	
          		}
