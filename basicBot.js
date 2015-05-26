@@ -3391,7 +3391,7 @@
                         	var already;
                         	attacker = chat.un;
                         	if (msg.length > cmd.length) {
-                            		if (perm < 2) return void (0);
+                            		//if (perm < 2) return void (0);
                         		victim = msg.substring(cmd.length + 2);
                         	}
                         	for (var i = 0; i < attackers.length; i++){
@@ -3418,7 +3418,7 @@
             		type: "startsWith",
             		functionality: function(chat, cmd){
         			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-        		        if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+        		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
         		 		var perm = basicBot.userUtilities.getPermission(chat.uid);
                 	        	var msg = chat.message;
