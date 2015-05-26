@@ -3391,7 +3391,7 @@
                         	var already;
                         	attacker = chat.un;
                         	if (msg.length > cmd.length) {
-                            		//if (perm < 2) return void (0);
+                            		if (perm < 2) return void (0);
                         		victim = msg.substring(cmd.length + 2);
                         	}
                         	for (var i = 0; i < attackers.length; i++){
@@ -3406,7 +3406,7 @@
                         	attackers[counter] = attacker;
                         	victims[counter] = victim;
                         	counter ++;
-                        	API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
+                        	return API.sendChat(subChat(basicBot.chat.duel, {name1: victim, name2: attacker}));
                         	
          		}
          	}
@@ -3418,25 +3418,24 @@
             		type: "startsWith",
             		functionality: function(chat, cmd){
         			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-        		       // if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+        		        if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
         		 		var perm = basicBot.userUtilities.getPermission(chat.uid);
                 	        	var msg = chat.message;
                 	        	var victim;
                 	        	var attacker;
-                	        	var i;
                 	        	var j;
                 	        	victim = chat.un;
                 	        	if (msg.length > cmd.length) {
                 	            		//if (perm < 2) return void (0);
                 	        		attacker = msg.substring(cmd.length + 2);
                 	        	}else return API.sendChat(subChat(basicBot.chat.format, {name: victim}));
-                	                for (i = 0; i < victims.length; i++){
+                	                for (var i = 0; i < victims.length; i++){
                 	                	if (victim = victims[i]) j = i;
                 	                }
                 	                if (attacker === attackers[j]){
-                	                	attackers[i] = null;
-                	                	victim[i] = null;
+                	                	attackers[j] = null;
+                	                	victim[j] = null;
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 	        		//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		//else{
