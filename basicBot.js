@@ -3434,8 +3434,8 @@
                 	                	if (victim = victims[i]) j = i;
                 	                }
                 	                if (attacker === attackers[j]){
-                	                	attackers[j] = null;
-                	                	victim[j] = null;
+                	                	delete attackers[j];
+                	                	delete victim[j];
                 	    			//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 	        		//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        		//else{
