@@ -3395,7 +3395,7 @@
                         		victim = msg.substring(cmd.length + 2);
                         	}
                         	for (var i = 0; i < attackers.length; i++){
-                        		if (attackers[i] = attacker){
+                        		if (attackers[i] === attacker){
                         			var attacked = victims[i];
                         			return API.sendChat(subChat(basicBot.chat.alreadyattacked, {name1: attacker, name2: attacked}));
                         		}
@@ -3431,7 +3431,7 @@
                 	        		attacker = msg.substring(cmd.length + 2);
                 	        	}else return API.sendChat(subChat(basicBot.chat.format, {name: victim}));
                 	                for (var i = 0; i < victims.length; i++){
-                	                	if (victim = victims[i]) j = i;
+                	                	if (victim === victims[i]) j = i;
                 	                }
                 	                if (attacker === attackers[j]){
                 	                	var l = 0; 
@@ -3441,8 +3441,8 @@
                 	                		l++; 
                 	                	}
                 	                	API.sendChat(string);
-                	                	delete attackers[j];
-                	                	delete victim[j];
+                	                	attackers.splice(j, 1);
+                	                	victims.splice(j, 1);
                 	                	var k = 0; 
                 	                	var stringg = "Array: "; 
                 	                	while(k < attackers.length){
