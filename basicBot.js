@@ -3428,7 +3428,7 @@
                 	        	victim = chat.un;
                 	                for (var i = 0; i < victims.length; i++){
                 	                	if (victim === victims[i]){
-                	                		attacker = attacker[i];
+                	                		attacker = attackers[i];
                 	                		attackers.splice(i, 1);
                 	                		victims.splice(i, 1);
                 	    				if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
