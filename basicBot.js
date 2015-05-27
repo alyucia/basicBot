@@ -3511,16 +3511,17 @@
         			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
         		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
-        		 		API.sendChat(Here to help, NikkiBot!);
+        		 		API.sendChat("Here to help, NikkiBot!"");
         		 		setTimeout(function () {
-        		 			API.sendChat(subChat(-pulls out popcorn-));
+        		 			API.sendChat(subChat("-pulls out popcorn-"));
+        		 			setTimeout(function () {
+        		 				API.sendChat("!attack");
+        		 				setTimeout(function () {
+        		 					API.sendChat("!attack");
+        		 				}, 500);
+        		 			}, 500);
         		 		}, 6000);
-        		 		setTimeout(function () {
-        		 			API.sendChat(!attack);
-        		 		}, 500);
-        		 		setTimeout(function () {
-        		 			API.sendChat(!attack);
-        		 		}, 500);
+        		 		
         		 		
          			}
          		}
