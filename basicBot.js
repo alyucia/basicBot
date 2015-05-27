@@ -3175,25 +3175,7 @@
                 }
             },
 
-            usercmdcdCommand: {
-                command: 'usercmdcd',
-                rank: 'manager',
-                type: 'startsWith',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-                        var cd = msg.substring(cmd.length + 1);
-                        if (!isNaN(cd)) {
-                            basicBot.settings.commandCooldown = cd;
-                            return API.sendChat(subChat(basicBot.chat.commandscd, {name: chat.un, time: basicBot.settings.commandCooldown}));
-                        }
-                        else return API.sendChat(subChat(basicBot.chat.invalidtime, {name: chat.un}));
-                    }
-                }
-            },
-
+            
             usercommandsCommand: {
                 command: 'usercommands',
                 rank: 'bouncer',
