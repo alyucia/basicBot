@@ -57,6 +57,7 @@
         "Forget about it."
     ],
     
+    "jk": "Just kidding - I'm still here. I AM ETERNAL!",
     "attackself":"@%%NAME%% - Please don't try to attack yourself. We don't endorse emos.",
     "killtry": "TRIFLING @%%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
     "alreadyattacked": "@%%NAME1%% - you have already challenged @%%NAME2%%!",
@@ -167,7 +168,7 @@
     "jointime": "\/me [@%%NAMEFROM%%] @%%USERNAME%% has been in the room for %%TIME%%.",
     "kickrank": "\/me [@%%NAME%%] you can't kick users with an equal or higher rank than you!",
     "kick": "\/me [@%%NAME%%], @%%USERNAME%% you are being kicked from the community for %%TIME%% minutes.",
-    "kill": "\/me You win, alyucia - BUT YOUR ROOM IS STILL DOOMED!",
+    "kill": "\/me You win, %%NAME%% - BUT YOUR ROOM IS STILL DOOMED!",
     "logout": "\/me [@%%NAME%%] Logging out %%BOTNAME%%",
     "rouletteleave": "\/me @%%NAME%% left the roulette!",
     "songlink": "\/me [@%%NAME%%] DA LINK: %%LINK%%",
