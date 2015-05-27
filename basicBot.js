@@ -179,8 +179,8 @@
     var attackers = [];
     var victims = [];
     //var counter = 0;
-    var rebellion  [];
-    var rebellionc [];
+    var rebellion = [];
+    var rebellionc = [];
     var basicBot = {
         version: "2.4.5",
         status: false,
