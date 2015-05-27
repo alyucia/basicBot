@@ -3511,7 +3511,7 @@
         			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
         		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
-        		 		API.sendChat("Here to help, NikkiBot!"");
+        		 		API.sendChat("Here to help, NikkiBot!");
         		 		setTimeout(function () {
         		 			API.sendChat(subChat("-pulls out popcorn-"));
         		 			setTimeout(function () {
