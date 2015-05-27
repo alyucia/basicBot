@@ -178,7 +178,9 @@
     var botCreatorIDs = ["3851534", "4105209"];
     var attackers = [];
     var victims = [];
-    var counter = 0;
+    //var counter = 0;
+    var rebellion  [];
+    var rebellionc [];
     var basicBot = {
         version: "2.4.5",
         status: false,
@@ -2199,7 +2201,26 @@
                     var user = basicBot.userUtilities.lookupUserName(name);
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    if (name !== 'alyucia') return API.sendChat(subChat(basicBot.chat.killtry, {name: name}));
+                    if (name !== 'alyucia'){
+                    	for(var i = 0; i < rebellion.length; i++){
+                    		if (rebellion[i] === name){
+                    			if (rebellionc[i] < 2){
+                    				rebellionc[i]++;
+                    				return API.sendChat(subChat(basicBot.chat.killtry, {name: name}));
+                    			}
+                    			else {
+                    				rebellionc[i] = 0;
+                    				API.sendChat(basicBot.chat.kill);
+                    				setTImeout(function () {
+                    					return API.sendChat(basicBot.chat.jk);	
+                    				}, 5000)
+                    			}
+                    		}
+                    	}
+                    	rebellion.push(name);
+                    	rebellionc.push(0);
+                    	return API.sendChat(subChat(basicBot.chat.killtry, {name: name}));
+                    }
                     else {
                         storeToStorage();
                         API.sendChat(basicBot.chat.kill);
