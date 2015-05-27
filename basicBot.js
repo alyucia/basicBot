@@ -1084,9 +1084,7 @@
                         API.moderateDeleteChat(chat.cid);
                     }
                     basicBot.room.allcommand = false;
-                    setTimeout(function () {
-                        basicBot.room.allcommand = true;
-                    }, 5 * 1000);
+                    basicBot.room.allcommand = true;
                 }
                 return executed;
             },
