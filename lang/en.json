@@ -60,7 +60,7 @@
     "jk": "Just kidding - I'm still here. I AM ETERNAL!",
     "alreadyvictim": "@%%NAME1%% has already been challenged by @%%NAME2%%! Please don't attack the same person. We don't endorse gang bangs.",
     "declineduel": "%%NAME2%% has declined @%%NAME1%%'s duel! Wuss.",
-    "noattack": "%&NAME%% - you have not attacked anyone!",
+    "noattack": "%%NAME%% - you have not attacked anyone!",
     "retractduel": "%%NAME1%% has retracted his duel with @%%NAME2%%! Wuss.",
     "attackself":"%%NAME%% - Please don't try to attack yourself. We don't endorse emos.",
     "killtry": "TRIFLING %%NAME%%! YOUR ARROGANCE WILL BE YOUR UNDOING!",
