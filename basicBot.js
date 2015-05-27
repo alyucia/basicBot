@@ -3443,7 +3443,7 @@
                 	        			}	
                 	                	}
                 	                }
-                        	
+                	                return API.sendChat(subChat(basicBot.chat.wrongattack, {name: victim}));
          			}
          		}
          
