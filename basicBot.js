@@ -2208,10 +2208,10 @@
                     				rebellionc[i]++;
                     				return API.sendChat(subChat(basicBot.chat.killtry, {name: name}));
                     			}
-                    			else {
+                    			else{
                     				rebellionc[i] = 0;
                     				API.sendChat(basicBot.chat.kill, {name: name});
-                    				setTImeout(function () {
+                    				setTimeout(function () {
                     					return API.sendChat(basicBot.chat.jk);	
                     				}, 5000)
                     			}
