@@ -3431,8 +3431,10 @@
                 	                		attacker = attackers[i];
                 	                		attackers.splice(i, 1);
                 	                		victims.splice(i, 1);
-                	    				if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
-                	        			if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
+                	    				//if (victim === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
+                	        			//if (attacker === 'alyucia') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
+                	        			if (attacker === 'Succubus&lt;3') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
+                	        			if (victim === 'Succubus&lt;3') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        			else{
                 						var random = Math.random() * 2;
                 						if (random > 1.2) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
