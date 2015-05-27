@@ -216,7 +216,7 @@
         	timeGuard: true,
         	maximumSongLength: 7,
         	autodisable: false,
-        	commandCooldown: 0,
+        	commandCooldown: 1,
         	usercommandsEnabled: true,
         	lockskipPosition: 3,
         	lockskipReasons: [
@@ -427,9 +427,7 @@
                 if (API.getWaitListPosition(id) === -1) {
                     if (wlist.length < 50) {
                         API.moderateAddDJ(id);
-                        if (pos !== 0) setTimeout(function (id, pos) {
-                            API.moderateMoveDJ(id, pos);
-                        }, 1250, id, pos);
+                        if (pos !== 0) API.moderateMoveDJ(id, pos);
                     }
                     else {
                         var alreadyQueued = -1;
