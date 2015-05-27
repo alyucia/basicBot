@@ -2210,7 +2210,7 @@
                     			}
                     			else{
                     				rebellionc[i] = 0;
-                    				API.sendChat(basicBot.chat.kill, {name: name});
+                    				API.sendChat(subChat(basicBot.chat.kill, {name: name}));
                     				setTimeout(function () {
                     					return API.sendChat(basicBot.chat.jk);	
                     				}, 5000)
@@ -2223,7 +2223,7 @@
                     }
                     else {
                         storeToStorage();
-                        API.sendChat(basicBot.chat.kill, {name: name});
+                        API.sendChat(subChat(basicBot.chat.kill, {name: name}));
                         basicBot.disconnectAPI();
                         setTimeout(function () {
                             kill();
