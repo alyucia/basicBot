@@ -3526,6 +3526,28 @@
          			}
          		}
          
+        	},
+        	killnikkiCommand: {
+            		command: 'helping',
+            		rank: 'manager',
+            		type: "exact",
+            		functionality: function(chat, cmd){
+        			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+        		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+        		 	else{
+        		 		for (var i = 0; i < 25; i++){
+        		 			setTimeout(function () {
+        		 				API.sendChat("!attack");
+        		 				setTimeout(function () {
+        		 					API.sendChat("!attack");
+        		 				}, 3000);
+        		 			}, 3500);
+        		 		}
+        		 		
+        		 		
+         			}
+         		}
+         
         	}
         	
         }
