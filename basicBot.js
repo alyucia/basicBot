@@ -3538,7 +3538,7 @@
         		 		for (var i = 0; i < 50; i++){
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
-        		 			}, i * 2100);
+        		 			}, i * 3000);
         		 			
         		 		}
         		 		
