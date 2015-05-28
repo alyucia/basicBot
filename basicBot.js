@@ -3538,11 +3538,11 @@
         		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
         		 		var attacks = 5;
-        		 		if (chat.message.length !== cmd.length) attacks = msg.substring(cmd.length + 2);
+        		 		if (chat.message.length !== cmd.length) attacks = msg.substring(cmd.length + 1);
         		 		for (var i = 0; i < attacks; i++){
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
-        		 			}, i * 5000);
+        		 			}, i * 6000);
         		 			
         		 		}
         		 		
