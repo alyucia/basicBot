@@ -1034,7 +1034,7 @@
             commandCheck: function (chat) {
                 var cmd;
                 if (chat.message === "NikkiBot: AlyBot help!" && chat.uid === 6511678){
-                	API.sendChat("WHOS HURTING MY LICKLE NIKKIBOT?");
+                	API.sendChat("AlyBot: WHO'S HURTING MY LICKLE NIKKIBOT?");
                 }
                 
                 if (chat.message.charAt(0) === '!') {
