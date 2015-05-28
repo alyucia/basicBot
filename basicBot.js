@@ -3437,7 +3437,9 @@
                 	        			else if (victim === 'Succubus&lt;3') return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 	        			else{
                 						var random = Math.random() * 2;
-                						API.sendChat(random + "");
+                						setTimeout(function(){
+                							API.sendChat(random + "");
+                						}, 1000)
                 						if (random > 1.2) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: victim, name2: attacker}));
                 						else if (random < 0.8) return API.sendChat(subChat(basicBot.chat.duelwin, {name1: attacker, name2: victim}));
                 						else return API.sendChat(subChat(basicBot.chat.dueltie, {name1: attacker, name2: victim}));
