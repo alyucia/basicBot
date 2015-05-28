@@ -3532,12 +3532,14 @@
         	killnikkiCommand: {
             		command: 'ThereCanOnlyBeOne',
             		rank: 'manager',
-            		type: "exact",
+            		type: "startsWith",
             		functionality: function(chat, cmd){
         			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
         		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
-        		 		for (var i = 0; i < 50; i++){
+        		 		var attacks = 5;
+        		 		if (chat.message.length !== cmd.length) attacks = msg.substring(cmd.length + 2);
+        		 		for (var i = 0; i < attacks; i++){
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 			}, i * 5000);
