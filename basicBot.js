@@ -3537,12 +3537,12 @@
         			if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
         		        //if (!basicBot.commands.executable(this.rank, chat)) return void (0);
         		 	else{
-        		 		var attacks = 5;
+        		 		var attacks = 10;
         		 		if (chat.message.length !== cmd.length) attacks = chat.message.substring(cmd.length + 1);
         		 		for (var i = 0; i < attacks; i++){
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
-        		 			}, i * 7000);
+        		 			}, i * 60000);
         		 			
         		 		}
         		 		
