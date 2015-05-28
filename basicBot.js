@@ -3540,152 +3540,152 @@
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
-        		 				}, 500);
-        		 			}, 500);
+        		 				}, 3500);
+        		 			}, 3500);
         		 		//}
         		 		
         		 		
