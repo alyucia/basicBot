@@ -3541,7 +3541,7 @@
         		 		if (chat.message.length !== cmd.length) attacks = chat.message.substring(cmd.length + 1);
         		 		for (var i = 0; i < attacks; i++){
         		 			setTimeout(function () {
-        		 				API.sendChat("!attack");
+        		 				API.sendChat("!fire");
         		 			}, i * 60000);
         		 			
         		 		}
