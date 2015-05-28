@@ -3528,7 +3528,7 @@
          
         	},
         	killnikkiCommand: {
-            		command: 'helping',
+            		command: 'ThereCanOnlyBeOne',
             		rank: 'manager',
             		type: "exact",
             		functionality: function(chat, cmd){
@@ -3538,7 +3538,7 @@
         		 		for (var i = 0; i < 50; i++){
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
-        		 			}, i * 3200);
+        		 			}, i * 2100);
         		 			
         		 		}
         		 		
