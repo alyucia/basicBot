@@ -3542,7 +3542,7 @@
         		 		for (var i = 0; i < attacks; i++){
         		 			setTimeout(function () {
         		 				API.sendChat("!attack");
-        		 			}, i * 6000);
+        		 			}, i * 3000);
         		 			
         		 		}
         		 		
