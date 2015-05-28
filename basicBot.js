@@ -1035,6 +1035,7 @@
                 var cmd;
                 if (chat.message === "NikkiBot: AlyBot help!" && chat.uid === 6511678){
                 	API.sendChat("On my way NikkiBot!");
+                	
                 }
                 if (chat.message.charAt(0) === '!') {
                     var space = chat.message.indexOf(' ');
