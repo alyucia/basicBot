@@ -3542,7 +3542,7 @@
         		 					API.sendChat("!attack");
         		 				}, 3500);
         		 			}, 3500);
-        		 			setTimeout(function () {
+        		 			/*setTimeout(function () {
         		 				API.sendChat("!attack");
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
@@ -3685,7 +3685,7 @@
         		 				setTimeout(function () {
         		 					API.sendChat("!attack");
         		 				}, 3500);
-        		 			}, 3500);
+        		 			}, 3500); */
         		 		//}
         		 		
         		 		
